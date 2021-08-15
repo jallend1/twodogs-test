@@ -6,7 +6,7 @@ const Main = () => {
       <div className='left'>
         <h2>Two Dogs Developers</h2>
         <h1>
-          Focused on creating things that make a difference for
+          Focused on creating solutions that make a difference for
           <span className='emphasis'> your business</span>.
         </h1>
         {/* <button>Get in touch.</button> */}

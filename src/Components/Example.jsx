@@ -5,7 +5,7 @@ const Example = ({website}) => {
                 Website {website}
             </h2>
             <div>
-                <img src={`/images/landscape-${website}.jpg`} alt={`Landscaping site ${website}`} />
+                <img className="preview" src={`/images/landscape-${website}.jpg`} alt={`Landscaping site ${website}`} />
             </div>
             
         </div>

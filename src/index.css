@@ -27,12 +27,11 @@ ul {
 }
 
 .container {
-  height: 100vh;
   overflow: auto;
   scroll-snap-type: y mandatory;
   font-family: 'Poppins', sans-serif;
   margin: auto;
-  height: 100vh;
+  height: 90vh;
   align-items: center;
 }
 
@@ -70,7 +69,7 @@ h2 {
   scroll-snap-align: center;
 }
 
-img {
+.preview {
   max-width: 300px;
 }
 
@@ -79,4 +78,27 @@ img {
   grid-template-columns: 1fr 1fr;
   row-gap: 3em;
   column-gap: 3em;
+}
+
+.prices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-options {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 2em;
+}
+
+.price {
+  padding: 1.25em;
+  text-align: center;
+}
+
+.profile {
+  max-width: 100%;
 }

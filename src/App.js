@@ -1,6 +1,8 @@
 import NavBar from "./Components/NavBar";
 import Main from "./Components/Main";
 import Examples from './Components/Examples';
+import Pricing from './Components/Pricing';
+import About from './Components/About';
 function App() {
   return (
     <div className="App">
@@ -8,6 +10,8 @@ function App() {
       <div className="container">
         <Main />
         <Examples />
+        <Pricing />
+        <About />
       </div>
     </div>
   );
