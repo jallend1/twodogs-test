@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
@@ -27,19 +27,27 @@ ul {
 }
 
 .container {
-  font-family: "Poppins", sans-serif;
-  width: 80vw;
-  padding: 2em;
+  height: 100vh;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  font-family: 'Poppins', sans-serif;
   margin: auto;
-  height: 80vh;
+  height: 100vh;
+  align-items: center;
+}
+
+.main {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   align-items: center;
+  justify-items: center;
+  margin: auto;
+  width: 80vw;
 }
 
 h1,
 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
 }
 
@@ -55,4 +63,9 @@ h2 {
 
 .emphasis {
   color: #1691f5;
+}
+
+.page {
+  height: 95vh;
+  scroll-snap-align: center;
 }
