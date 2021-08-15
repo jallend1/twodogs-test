@@ -69,3 +69,14 @@ h2 {
   height: 95vh;
   scroll-snap-align: center;
 }
+
+img {
+  max-width: 300px;
+}
+
+.sitelist {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 3em;
+  column-gap: 3em;
+}

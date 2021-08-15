@@ -4,8 +4,9 @@ const NavBar = () => {
   return (
     <nav>
       <ul>
+        <li>Home</li>
         <li>Pricing</li>
-        <li>Examples</li>
+        <li>See Our Work</li>
         <li>About</li>
         <li>Contact</li>
       </ul>
